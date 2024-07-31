@@ -6,22 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Goggle Font Bebas Neue -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+
+    <!-- Goggle Font Roboto -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0 500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
         .headings {
-                font-family: "Bebas Neue", sans-serif;
-                font-weight: 400;
-                font-style: normal;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .roboto{
+            font-family: "Roboto", sans-serif;
         }
     </style>
 </head>
 
-<body>
-    <header class="bg-[#FFFBF0] px-32 pt-12 pb-32">
+<body class="roboto">
+    <header class="bg-[#FFFBF0] px-4 md:px-32 pt-12 pb-32">
 
         <!-- Nav Section -->
 
@@ -31,15 +43,16 @@
 
         <!-- Banner Section -->
 
-        <div class="flex items-center  justify-between">
-            <div class="space-y-2">
+        <div class="flex flex-col gap-11 md:flex-row items-center  justify-between">
+            <div class="space-y-3">
                 <h3 class="text-7xl headings uppercase"><span class="text-[#FABE4C]">Be the Penguins </span>
                     <br>
                     of Winter
                 </h3>
-                <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing <br> and typesetting
+                    industry.</p>
                 <button
-                    class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-9 py-4 rounded-xl flex items-center gap-2">
+                    class="uppercase font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-9 py-4 rounded-xl flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
