@@ -37,8 +37,18 @@
 
         <!-- Nav Section -->
 
-        <nav>
-
+        <nav class="flex flex-col md:flex-row gap-5 justify-between items-center mb-9">
+            <div class="w-80">
+                <img class="w-full" src="icons/logo.png" alt="">
+            </div>
+            <div class="">
+                <ul class="flex flex-col md:flex-row gap-2 md:gap-14">
+                    <li><a class="text-[#3C3C3C] font-medium" href="">Home</a></li>
+                    <li><a class="text-[#3C3C3C] font-medium" href="">Product</a></li>
+                    <li><a class="text-[#3C3C3C] font-medium" href="">About us</a></li>
+                    <li><a class="text-[#3C3C3C] font-medium" href="">Contact us</a></li>
+                </ul>
+            </div>
         </nav>
 
         <!-- Banner Section -->
@@ -51,14 +61,10 @@
                 </h3>
                 <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing <br> and typesetting
                     industry.</p>
-                <button
-                    class="uppercase font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-9 py-4 rounded-xl flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>
-                    bye now</button>
+                <div class="flex items-center gap-2  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 w-48 py-4 rounded-xl">
+                    <img class="w-6" src="icons/shopping-cart 1.png" alt="">
+                    <button class="uppercase font-medium text-white">bye now</button>
+                </div>    
             </div>
             <div class="">
                 <img src="images/model.png" alt="">
